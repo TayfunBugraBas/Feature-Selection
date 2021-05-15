@@ -3,7 +3,7 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.feature_selection import VarianceThreshold
 
-paribas_data = pd.read_csv(r"C:\Users\TAYFUN BUĞRA BAŞ\Desktop\odevler vs\Müh Proje\hepsisonuclu.csv", nrows=20000)
+paribas_data = pd.read_csv(r"C:\Users\user\directory\directory\Müh Proje\hepsisonuclu.csv", nrows=20000)
 paribas_data.shape
 
 num_colums = ['int16', 'int32', 'int64', 'float16', 'float32', 'float64']
